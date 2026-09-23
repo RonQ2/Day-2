@@ -86,10 +86,10 @@ Win + R
 !@CoreTAAS
 conf t
  username admin privilege 15 secret pass
- username _____ privilege 15 secret pass
+ username ronq002 privilege 15 secret pass
  !
  ip domain name sec.com
- crypto key generate rsa
+ crypto key generate rsa (generate rsa modulus 2048 label key exportable)
  2048
  ip ssh version 2
  !
